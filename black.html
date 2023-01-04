@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {
+            margin-left: 120px
+        }
+
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+    </style>
+</head>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="D:\trial\images\sub2.JPG" style="width:100%">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#certification" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-certificate w3-xxlarge"></i>
+            <p style="position: relative;right: 10px;">CERTIFICATION</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#certification" class="w3-bar-item w3-button" style="width:25% !important">CERTIFICATION</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-33 w3-center w3-text-light-grey" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small, width: 300px">I am </span> Subodh Poudel
+            </h1>
+            <p style="font-size: large;">Front End Web Developer.</p>
+            <div style="position:relative; left: 50px;"><img src="D:\trial\images\sub.jpg" alt="boy" class="w3-image"
+                    width="800" height="800"></div>
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">WHO AM I?</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p style="font-size: medium;"> Hello everyone. My name is Subodh Poudel and As a front end developer, I have
+                a strong foundation in
+                HTML, CSS, and JavaScript,
+                and I am skilled in creating visually appealing and user-friendly websites. I have experience working on
+                a variety of projects,
+                including e-commerce sites, portfolio sites, and landing pages for businesses.
+                I am known for my attention to detail, ability to work in fast-paced environments, and strong
+                communication skills.
+                I am constantly seeking to learn and stay up-to-date with the latest developments in front end
+                technology in order to provide the best solutions for my clients.
+                In my current role,
+                I enjoy collaborating with cross-functional teams to bring ideas to life and create high-quality
+                websites that meet the needs of both users and clients.
+            </p>
+            <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+            <p class="w3-wide">Solidity</p>
+            <div class="w3-white">
+                <div class="w3-orange" style="height:28px;width:70%"></div>
+            </div>
+            <p class="w3-wide">Web Design</p>
+            <div class="w3-white">
+                <div class="w3-orange" style="height:28px;width:90%"></div>
+            </div>
+            <p class="w3-wide">Blockchain</p>
+            <div class="w3-white">
+                <div class="w3-orange" style="height:28px;width:80%"></div>
+            </div><br>
+
+            <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">11+</span><br>
+                    Partners
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">15+</span><br>
+                    Projects Done
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">8+</span><br>
+                    Happy Clients
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">10+</span><br>
+                    Meetings
+                </div>
+            </div>
+
+            <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                <a href="https://mega.nz/file/oFNRyCrI#7twmF3axuATLPOK_DxcRiuJOkY4Tx55fyhrr6cUGZwc">Download
+                    Resume<i class="fa fa-download"></i>
+                </a>
+            </button>
+
+
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="certification">
+                <h2 class="w3-text-light-grey">CERTIFICATION</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <a href="https://www.coursera.org/account/accomplishments/verify/52HJ379TUN6D"><img
+                                src="\images\coursera.png" style="width:100%"></a>
+                        <a href="https://www.futurelearn.com/certificates/5u7zj6r"><img src="\images\futurelearn.png"
+                                style="width:100%"></a>
+
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="" style="width:100%">
+                        <img src="" style="width:100%">
+
+
+                    </div>
+                    <!-- End photo grid -->
+                </div>
+                <!-- End Portfolio Section -->
+            </div>
+
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+                <h2 class="w3-text-light-grey">Contact Me</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <div class="w3-section">
+                    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Kathmandu, Nepal
+                    </p>
+                    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +977 9849118109
+                    </p>
+                    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <a
+                            href="mailto:subodh.me65@gmail.com">
+                            subodh.me65@gmail.com</a>
+                    </p>
+                </div><br>
+                <p>Let's get in touch. Send me a message:</p>
+
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject">
+                    </p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message">
+                    </p>
+                    <p>
+                        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                        </button>
+                    </p>
+                </form>
+                <!-- End Contact Section -->
+            </div>
+
+            <!-- Footer -->
+            <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+                <a href="https://www.facebook.com/cryptocrazym/"><i
+                        class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                <a href="https://www.instagram.com/subodhpoudel/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                <a href="https://twitter.com/Cryptocrazyme"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
+                <p class="w3-medium">Powered by <a href="https://www.facebook.com/cryptocrazym/" target="_blank"
+                        class="w3-hover-text-green">Subodh</a></p>
+                <!-- End footer -->
+            </footer>
+
+            <!-- END PAGE CONTENT -->
+        </div>
+
+</body>
+
+</html>
